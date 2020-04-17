@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+
+  <title>Zac Brown Band Image Gallery</title>
+</head> 
+<Header>
+  <h1> Zac Brown Band</h1> 
+  <h2> ~ Image Gallery ~</h2> 
+  
+</Header>
+<style>  
+*{
+  box-sizing: border-box;
+}  
+
+body{
+  margin: 0;  
+  font-family: verdana; 
+  
+}
+header{
+  text-align: center;  
+  padding: 25px; 
+  background-image: url("images/flag.jpg");
+  
+}
+
+header h1{
+  font-size: 75px; 
+  text-align: center; 
+  color: midnightblue;  
+  
+} 
+header h2{
+  font-size: 30px; 
+  text-align: center; 
+  color: midnightblue; 
+  font-style: italic;
+} 
+body{
+  background-color: midnightblue;
+}
+
+
+ 
+.row{
+  display: flex; 
+  flex-wrap: wrap; 
+  padding: 0 4px;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  flex: 25%; 
+  max-width: 25%; 
+  padding: 0 4px
+}  
+img{
+  width: 100%;  
+  padding: 8px;
+  
+}
+.column img{
+  margin-top: 8px; 
+  vertical-align: middle;
+}   
+@media (max-width:800px) {
+  .column {
+    flex: 50%; 
+    max-width: 50%;
+  }
+}
+ @media (max-width 600px) {
+   .column{
+     flex: 100%; 
+     max-width:100% ;
+   } 
+   
+   
+ }
+footer{
+  font-size: small; 
+  font-style: italic; 
+  color: aliceblue; 
+  text-align: center; 
+  padding: 5px; 
+  border-top: 2px, bold, ghostwhite;
+}  
+
+</style>
+<body>
+  <div class="row">
+    <div class="column">
+      <img src="images/zbb.jpg" style=width:100%;>
+      <img src="images/zbb1.jpg" style= width:100%;>
+      <img src="images/zbb2.jpg" style= width:100%;>
+      <img src="images/zbb3.jpg" style= width:100%;>
+      <img src="images/zbb4.jpg" style= width:100%;>
+      
+    </div>
+    <div class="column">
+      <img src="images/zbb5.jpg" style= width:100%;>
+      <img src="images/zbb6.jfif" style= width:100%;>
+      <img src="images/zbb7.jpg" style= width:100%;>
+      <img src="images/zbb8.jpg" style= width:100%;>
+      <img src="images/zbb9.jpg" style= width:100%;>
+     
+    </div>
+    <div class="column">
+      <img src="images/zbb10.jfif" style= width:100%;>
+      <img src="images/zbb11.jpg" style= width:100%;>
+      <img src="images/zbb12.jpg" style= width:100%;>
+      <img src="images/zbb13.png" style= width:100%;>
+      <img src="images/zbb14.jpg" style= width:100%;>
+      
+    </div>
+    <div class="column">
+      <img src="images/zbb15.jpg" style= width:100%;>
+      <img src="images/zbb16.jpg" style= width:100%;>
+      <img src="images/zbb17.jpg" style= width:100%;>
+      <img src="images/zbb18.jpg" style= width:100%;>
+      <img src="images/zbb19.jpg" style= width:100%;> 
+      </div>
+  
+    
+  </div>                                      
+  
+</body>
+</html>
+
+
+<footer>
+ &copy; Erin Bourgeois - Website Development 
+</footer>
